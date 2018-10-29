@@ -41,5 +41,7 @@ class Z13
 		System.out.println("main:" + i);
 		i += 9;
 		j += i;
+		System.out.println(i);
+		System.out.println(j);
 	}
 }

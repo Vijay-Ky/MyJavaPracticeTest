@@ -1,0 +1,21 @@
+class Student2
+{
+	String name;//instace variable//initialized to null
+	int rollnumber; //instace variable//initialized to 0
+	public static void main(String[] args) 
+	{
+		Student1 s1 = new Student1();
+		s1.name = "vijay";
+		s1.rollnumber = "201";
+		Student1 s2 = new Student1();
+		s2.name = "Ajay";
+		s2.rollnumber = "202";
+		Student1 s3 = new Student1();
+		s3.name = "kumar";
+		s3.rollnumber = "203";
+		Student1 s4 = new Student1();
+		s4.name = "kiran";
+		s4.rollnumber = "204";
+		System.out.println("Hello World!");
+	}
+}

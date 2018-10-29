@@ -1,6 +1,6 @@
 class G 
 {
-	int i;
+	boolean i;
 
 	public static void main(String[] args) 
 	{

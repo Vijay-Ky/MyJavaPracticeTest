@@ -18,6 +18,5 @@ class Z10
 		i = 33;
 		System.out.println(test());
 		System.out.println("Z10.main end" + i);
-		System.out.println(Z10.i);
 	}
 }

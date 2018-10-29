@@ -1,7 +1,7 @@
 class Z13 
 {
-	int i = test1();
-	int j = test2();
+	static int i = test1();
+	static int j = test2();
 	static
 	{
 		System.out.println("SIB:" + "i:" + i + "," + "j:" + j);
@@ -41,5 +41,7 @@ class Z13
 		System.out.println("main:" + i);
 		i += 9;
 		j += i;
+		System.out.println(i);//95
+		System.out.println(j);//652
 	}
 }
