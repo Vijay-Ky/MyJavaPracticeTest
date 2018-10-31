@@ -1,35 +1,28 @@
-abstract class A 
+class I 
 {
-	abstract void test1();
-	void test2()
+	int p;
+	static int q;
+	void test3()
 	{
-		System.out.println("from test2");
+		System.out.println("I.test3()");
+	}
+	static void test4()
+	{
+		System.out.println("I.test4()");
 	}
 }
-class G extends A
+class J extends I
 {
-	void test1()
+	public static void main(String[] args) 
 	{
-		//some statements
-	}
-}
-class J
-{
-	
-	J(A obj)
-	{
-	}
-	void method1(A obj)
-	{
-	}
-	A method2()
-	{
-		return null;
-	}
-	public static void main(String[] agrs)
-	{
-		A a1 = null;
-		G g1 = new G();
-	    System.out.println("done");
+		J obj = new J();
+		System.out.println(obj.p);
+		System.out.println(I.q);
+		System.out.println(obj.p);
+		System.out.println(I.q);
+		obj.test3();
+		obj.test4();
+		obj.test3();
+		obj.test4();
 	}
 }

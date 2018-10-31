@@ -1,11 +1,14 @@
-abstract class A 
+class E 
 {
-	abstract void test1();
-	void test2()
-	{
-		System.out.println("from test2");
-	}
+	static int i = 20;
 }
-abstract class E extends A
+class F extends E
 {
+	static int j = 40;
+
+	public static void main(String[] args) 
+	{
+		System.out.println(F.i);
+		System.out.println(F.j);
+	}
 }

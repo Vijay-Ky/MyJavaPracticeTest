@@ -1,8 +1,21 @@
-abstract class D
+class C 
 {
-	abstract void test1();
-	abstract void test2()
+	void test1()
 	{
-		//some statements
+		System.out.println("C.test1()");
+	}
+}
+class D extends C
+{
+	void test2()
+	{
+		System.out.println("D.test2()");
+	}
+	public static void main(String[] args) 
+	{
+		D d1 = new D();
+		d1.test1();
+		d1.test2();
+		System.out.println("done");
 	}
 }

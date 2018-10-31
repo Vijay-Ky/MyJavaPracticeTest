@@ -22,6 +22,7 @@ class Z
 		y1.n = 13;
 		y1.x1 = obj1;
 		y1.x2 = new X();
+		System.out.println(y1.x2);
 		y1.x2.i = 14;
 		y1.x2.j = 15;
 		System.out.println(y1.m);

@@ -1,33 +1,21 @@
-abstract class A 
+class K extends Object
 {
-	abstract void test1();
-	void test2()
+	K()
 	{
-		System.out.println("from A.test2");
-	}
-	abstract void test3();
-}
-abstract class B extends A
-{
-	void test1()
-	{
-		System.out.println("from B.test1");
+		super();
+		System.out.println("K()");
 	}
 }
-class C1 extends B
+class L extends K
 {
-	void test3()
+	L()
 	{
-		System.out.println("from C.test1");
+		super();
+		System.out.println("L()");
 	}
-	public static void main(String[] agrs)
+	public static void main(String[] args) 
 	{
-		//B b1 = new B();
-		C c1 = new C();
-		c1.test1();
-		c1.test2();
-		c1.test3();
-	    System.out.println("done");
+		L l1 = new L();
+		System.out.println("done");
 	}
 }
-
