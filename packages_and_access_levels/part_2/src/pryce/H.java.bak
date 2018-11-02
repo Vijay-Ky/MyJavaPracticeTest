@@ -1,4 +1,4 @@
-package lara;
+package pryce;
 class H extends F
 {
 public static void main(String[] args)

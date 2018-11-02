@@ -1,6 +1,6 @@
 package pryce;
 class A
 {
-int i;
+	int i;
 }
  

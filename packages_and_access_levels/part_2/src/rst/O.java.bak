@@ -3,7 +3,7 @@ class O
 {
 public static void main(String[]args)
 {
-lara.O o1= new lara.N();
+pryce.O o1= new lara.N();
 System.out.println(n1.i);
 }
 }

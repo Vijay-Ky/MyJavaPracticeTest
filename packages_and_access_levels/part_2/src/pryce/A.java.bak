@@ -1,4 +1,4 @@
-package lara;
+package pryce;
 class A
 {
 int i;

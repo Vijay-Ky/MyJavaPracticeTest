@@ -1,12 +1,12 @@
 package rst;
-class U extends lara.N
+class U extends pryce.N
 {
-public static void main(String[]args)
-{
-lara.N n1= new lara.N();
-lara.N n2= new lara.N();
-lara.N n3= new lara.N();
-System.out.println("done");
-}
+	public static void main(String[]args)
+	{
+		N n1 = new pryce.N();
+		N n2 = new pryce.N();
+		N n3 = new pryce.N();
+		System.out.println("done");
+	}
 }
  

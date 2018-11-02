@@ -1,8 +1,8 @@
 package pryce;
 public class A
 {
-int i;
-protected int j;
-public int k;
+	int i;
+	protected int j;	
+	public int k;
 }
  

@@ -1,5 +1,5 @@
 package rst;
-import lara.*;
+import pryce.*;
 class T
 {
 public static void main(String[]args)

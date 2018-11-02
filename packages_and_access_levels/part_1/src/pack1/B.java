@@ -1,13 +1,13 @@
 package pack1;
 class B
 {
-private int i;
+	private int i;
 }
 class C
 {
-public static void main(String[]args)
-{
-B b1= new B();
-System.out.println(b1.i);
-}
+	public static void main(String[]args)
+	{
+		B b1  = new B();
+		System.out.println(b1.i);
+	}
 }

@@ -3,7 +3,7 @@ class R
 {
 public static void main(String[]args)
 {
-lara.N n1= new lara.N();
+pryce.N n1= new pryce.N();
 System.out.println("done");
 }
 }

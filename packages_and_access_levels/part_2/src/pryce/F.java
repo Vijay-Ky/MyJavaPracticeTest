@@ -1,8 +1,8 @@
 package pryce;
 class F
 {
-void test1()
-{
-System.out.println("test1");
-}
+	void test1()
+	{
+		System.out.println("test1");
+	}	
 }
