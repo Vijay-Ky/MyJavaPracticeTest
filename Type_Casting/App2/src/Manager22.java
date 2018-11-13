@@ -9,4 +9,4 @@ class Manager22
 		B b2 = (B) a2;
 		System.out.println("--------");
 	}
-}
+}	
