@@ -1,19 +1,13 @@
 class X
 { 
-final int i;
-X()
-{
-	i=0;
-}
-x(int j)
-{
-	final int I;
-y()
-{
-	i=10;
-}
-y(int i)
-{
-	i=10;
-}
+	final int i;
+	X()
+	{
+		i = 0;
+	}
+	
+	X(int i)
+	{
+		this.i = 20;
+	}
 }

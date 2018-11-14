@@ -1,8 +1,8 @@
 class C
 { 
-final static int i=10;
-void test()
-{
-i=10;	
-}
+	final static int i = 10;
+	void test()
+	{
+		i = 10;	
+	}
 }

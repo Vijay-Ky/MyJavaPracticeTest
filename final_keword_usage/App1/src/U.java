@@ -1,4 +1,4 @@
 class U
 { 
-final int x=0;
+	final int x = 0;
 }

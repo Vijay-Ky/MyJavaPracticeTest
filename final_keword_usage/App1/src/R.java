@@ -1,8 +1,9 @@
 class R
 { 
-final int i=10;
-R()
-{
-i=10;
-}
+	final int i = 10;
+
+	R()
+	{
+		i = 10;
+	}
 }

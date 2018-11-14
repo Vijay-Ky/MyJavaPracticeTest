@@ -1,0 +1,5 @@
+/*Similarities in this and super
+
+1) We can use this as well as super anywhere except static area. Example of this is already shown above where we use this as well as super inside public static void main(String[]args) hence we get Compile Time Error since cannot use them inside static area.
+2) We can use this as well as super any number of times in a program.
+*/

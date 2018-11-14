@@ -1,5 +1,5 @@
 abstract class R
 { 
-abstract final void test();
+	abstract final void test();
 }
 

@@ -1,7 +1,7 @@
 class S
 { 
-final int x=10;
-{
-x=10;
-}
+	final int x = 10;
+	{
+		x = 10;
+	}
 }

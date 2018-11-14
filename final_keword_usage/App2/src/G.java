@@ -1,13 +1,13 @@
 class G
 { 
-final static int i=10;
-static
-{
-	i=10;
-}
-static
-{
-	i=10;
-}
+	final static int i = 10;
+	static
+	{
+		i = 10;
+	}
+	static
+	{
+		i = 10;
+	}
 
 }

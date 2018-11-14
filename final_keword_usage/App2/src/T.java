@@ -1,5 +1,5 @@
 interface T
 { 
-static void test1();
+	void test1();
 }
 

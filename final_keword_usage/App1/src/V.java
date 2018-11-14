@@ -1,8 +1,9 @@
 class V
 { 
-final int i;
-V()
-{
-	i=0;
-}
+	final int i;
+
+	V()
+	{
+		i = 0;
+	}
 }
