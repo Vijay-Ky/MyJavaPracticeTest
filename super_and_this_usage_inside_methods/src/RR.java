@@ -1,4 +1,4 @@
-/ Program to illustrate this keyword  
+// Program to illustrate this keyword  
 // is used to refer current class 
 //this is a reserved keyword in java i.e, we can’t use it as an identifier.
 //this is used to refer current-class’s instance as well as static members.

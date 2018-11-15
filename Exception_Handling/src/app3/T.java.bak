@@ -1,0 +1,19 @@
+class T 
+{
+	int test()
+	{
+		try
+		{
+			//code
+		}
+		catch (ArithmeticException ex)
+		{
+		}
+		finally 
+		{
+			return 100;
+		}
+			return 200;
+	}
+}
+

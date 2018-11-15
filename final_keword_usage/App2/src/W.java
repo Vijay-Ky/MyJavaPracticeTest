@@ -1,3 +1,3 @@
-abstract final class W
+abstract class W
 { 
 }
