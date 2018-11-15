@@ -4,7 +4,7 @@ class D
 	{
 		System.out.println("main begin");
 		Object obj = new Object();
-		E e1 = (E) obj;
+		A e1 = (A) obj;
 		System.out.println("main end");
 	}
 }

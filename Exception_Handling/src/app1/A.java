@@ -10,3 +10,4 @@ class A
 /*
 1.for abnormal condition arithmetic exception object will be raised.
 2.rised exception object should be handled to succesfully continue.
+*/
