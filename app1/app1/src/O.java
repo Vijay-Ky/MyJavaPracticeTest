@@ -1,8 +1,8 @@
 class O
 {
-public static void main(String[]args)
-{
-int i;
-System.out.println("done");
-}
+	public static void main(String[]args)
+	{
+		int i;
+		System.out.println("done");
+	}
 }
